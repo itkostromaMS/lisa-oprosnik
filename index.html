@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Опросник по вайб-кодингу и VCS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="badge">GitHub Pages / Survey</p>
+      <h1>Опросник по документации вайб-кодинга</h1>
+      <p>
+        Ответьте на вопросы, чтобы зафиксировать знания и получить персональный
+        отчёт. После отправки браузер сформирует текстовый файл с вопросами
+        и вашими ответами.
+      </p>
+    </header>
+
+    <section class="instructions">
+      <h2>Как пользоваться</h2>
+      <ol>
+        <li>Последовательно заполните разделы — радиокнопки и поля обязательны.</li>
+        <li>Нажмите «Скачать отчёт».</li>
+        <li>Файл с вопросами и вашими ответами загрузится автоматически.</li>
+      </ol>
+    </section>
+
+    <section class="survey-panel">
+      <form id="survey-form" aria-describedby="form-status" novalidate>
+        <div id="questions-container"></div>
+        <div class="form-actions">
+          <button type="submit">Скачать отчёт</button>
+        </div>
+        <p id="form-status" class="status" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
