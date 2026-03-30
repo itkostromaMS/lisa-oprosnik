@@ -1,6 +1,6 @@
 const questions = [
   {
-    heading: "1.1. Расшифруйте аббревиатуру CJM",
+    heading: "Расшифруйте аббревиатуру CJM",
     type: "radio",
     description:
       "Выберите наиболее точное определение из предложенных вариантов.",
@@ -14,14 +14,14 @@ const questions = [
     required: true
   },
   {
-    heading: "6. Какие инструменты используются для построения CJM?",
+    heading: "Какие инструменты используются для построения CJM?",
     type: "textarea",
     description: "Назовите не менее 3 инструментов.",
     name: "question-cjm-tools",
     required: true
   },
   {
-    heading: "9. Что такое VCS и для чего она нужна?",
+    heading: "Что такое VCS и для чего она нужна?",
     type: "textarea",
     description:
       "Чем отличается от обычного хранилища файлов (например, Dropbox)?",
@@ -29,7 +29,7 @@ const questions = [
     required: true
   },
   {
-    heading: "2.4. Что такое merge-конфликт и при каких обстоятельствах он возникает?",
+    heading: "Что такое merge-конфликт и при каких обстоятельствах он возникает?",
     type: "textarea",
     description:
       "Какие три варианта разрешения конфликта предлагает VCS, когда автоматическое слияние невозможно?",
@@ -37,74 +37,74 @@ const questions = [
     required: true
   },
   {
-    heading: "11. В чём разница между командами commit и push?",
+    heading: "В чём разница между командами commit и push?",
     type: "textarea",
     description: "В каких системах они разделены?",
     name: "question-commit",
     required: true
   },
   {
-    heading: "14. Чем SVN отличается от Git и Mercurial?",
+    heading: "Чем SVN отличается от Git и Mercurial?",
     type: "textarea",
     name: "question-svn",
     required: true
   },
   {
-    heading: "15. Назовите три способа клонировать репозиторий из Git.",
+    heading: "Назовите три способа клонировать репозиторий из Git.",
     type: "textarea",
     name: "question-clone",
     required: true
   },
   {
     heading:
-      "16. Что происходит, если два разработчика одновременно изменяют один и тот же файл и оба пушат изменения?",
+      "Что происходит, если два разработчика одновременно изменяют один и тот же файл и оба пушат изменения?",
     type: "textarea",
     name: "question-race",
     required: true
   },
   {
-    heading: "18. Какие 4 уровня описывает модель TCP/IP?",
+    heading: "Какие 4 уровня описывает модель TCP/IP?",
     type: "textarea",
     description: "Кратко охарактеризуйте каждый.",
     name: "question-tcp",
     required: true
   },
   {
-    heading: "20. Перечислите основные HTTP-методы (не менее 5)",
+    heading: "Перечислите основные HTTP-методы (не менее 5)",
     type: "textarea",
     description: "Опишите назначение каждого.",
     name: "question-http",
     required: true
   },
   {
-    heading: "26. Что такое реляционная база данных?",
+    heading: "Что такое реляционная база данных?",
     type: "textarea",
     name: "question-relational",
     required: true
   },
   {
-    heading: "28. Что такое нормализация?",
+    heading: "Что такое нормализация?",
     type: "textarea",
     name: "question-normalization",
     required: true
   },
   {
     heading:
-      "4.6. Опишите на примере из статьи (заявка на кредит), почему для обработки заявки в мобильном приложении банка предпочтительнее асинхронный подход.",
+      "Опишите на примере из статьи (заявка на кредит), почему для обработки заявки в мобильном приложении банка предпочтительнее асинхронный подход.",
     type: "textarea",
     description: "Чем этот пример контрастирует с примером открытия вклада?",
     name: "question-async",
     required: true
   },
   {
-    heading: "34. Что такое MCP (Model Context Protocol)?",
+    heading: "Что такое MCP (Model Context Protocol)?",
     type: "textarea",
     name: "question-mcp",
     required: true
   },
   {
     heading:
-      "5.5. Статья описывает подход к ручному тестированию с помощью ChatGPT.",
+      "Статья описывает подход к ручному тестированию с помощью ChatGPT.",
     type: "textarea",
     description:
       "Какие шаги выполняются при создании чек-листов и тест-кейсов на основе документации продукта?",
@@ -113,28 +113,28 @@ const questions = [
   },
   {
     heading:
-      "38. Что такое roadmap.md, progress.md, context.md в контексте вайб-кодинга?",
+      "Что такое roadmap.md, progress.md, context.md в контексте вайб-кодинга?",
     type: "textarea",
     description: "Для чего используются эти файлы?",
     name: "question-roadmap",
     required: true
   },
   {
-    heading: "40. Что означают аббревиатуры CI и CD?",
+    heading: "Что означают аббревиатуры CI и CD?",
     type: "textarea",
     name: "question-ci",
     required: true
   },
   {
     heading:
-      "41. В чём разница между «непрерывной поставкой» (Continuous Delivery) и «непрерывным развёртыванием» (Continuous Deployment)?",
+      "В чём разница между «непрерывной поставкой» (Continuous Delivery) и «непрерывным развёртыванием» (Continuous Deployment)?",
     type: "textarea",
     name: "question-continuous",
     required: true
   },
   {
     heading:
-      "6.4. Что такое «непрерывное тестирование» (continuous testing) и чем оно отличается от просто «автоматизации тестирования»?",
+      "Что такое «непрерывное тестирование» (continuous testing) и чем оно отличается от просто «автоматизации тестирования»?",
     type: "textarea",
     description:
       "Какие виды тестов могут быть частью CI, а какие — CD?",
@@ -142,10 +142,9 @@ const questions = [
     required: true
   },
   {
-    heading: "7.1. Что такое встроенная функция SQL?",
+    heading: "Что такое встроенная функция SQL?",
     type: "radio",
-    description:
-      "Выберите верное утверждение:",
+    description: "Выберите верное утверждение:",
     name: "question-sql-function",
     options: [
       "Реализованный в СУБД код, принимающий аргументы определённого типа и обязательно возвращающий один литерал; может принимать как ноль, так и несколько аргументов",
@@ -157,20 +156,20 @@ const questions = [
   },
   {
     heading:
-      "7.5. Особенность работы SQL-функций над значениями полей таблицы: к какой строке будет применена функция `LENGTH(member_name)` — ко всей таблице целиком или к каждой строке отдельно?",
+      "Особенность работы SQL-функций над значениями полей таблицы: к какой строке будет применена функция `LENGTH(member_name)` — ко всей таблице целиком или к каждой строке отдельно?",
     type: "textarea",
     name: "question-length",
     required: true
   },
   {
-    heading: "51. Что делает функция YEAR()? Что вернёт YEAR('2022-06-16')?",
+    heading: "Что делает функция YEAR()? Что вернёт YEAR('2022-06-16')?",
     type: "textarea",
     name: "question-year",
     required: true
   },
   {
     heading:
-      "54. Как вычислить длину фамилии, имея строку в формате «имя фамилия»?",
+      "Как вычислить длину фамилии, имея строку в формате «имя фамилия»?",
     type: "textarea",
     description: "Какие функции нужно использовать?",
     name: "question-lastname",
@@ -179,6 +178,8 @@ const questions = [
 ];
 
 const container = document.querySelector("#questions-container");
+const answersPanel = document.querySelector("#answers-panel");
+const answersList = document.querySelector("#answers-list");
 
 const createFieldset = ({
   heading,
@@ -201,7 +202,7 @@ const createFieldset = ({
   if (type === "radio") {
     const grid = document.createElement("div");
     grid.className = "options-grid";
-    options.forEach((option, index) => {
+    options.forEach((option) => {
       const label = document.createElement("label");
       label.className = "option";
       const input = document.createElement("input");
@@ -248,6 +249,30 @@ const toPlainText = (formData) => {
   return body;
 };
 
+const renderAnswers = (formData) => {
+  answersList.innerHTML = "";
+  for (const [key, value] of formData.entries()) {
+    const question = questions.find((q) => q.name === key);
+    const card = document.createElement("article");
+    card.className = "answer-card";
+
+    const label = document.createElement("p");
+    label.className = "answer-label";
+    label.textContent = question.heading;
+
+    const text = document.createElement("p");
+    text.className = "answer-text";
+    const sanitized = value.trim().replace(/\n/g, "<br>");
+    text.innerHTML = sanitized || "—"
+;
+
+    card.appendChild(label);
+    card.appendChild(text);
+    answersList.appendChild(card);
+  }
+  answersPanel.hidden = false;
+};
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const formData = new FormData(form);
@@ -271,6 +296,7 @@ form.addEventListener("submit", (event) => {
   downloadLink.click();
   URL.revokeObjectURL(downloadLink.href);
 
+  renderAnswers(formData);
   status.textContent = "Отчёт сформирован. Скачивание началось.";
   status.className = "status status--success";
 });
